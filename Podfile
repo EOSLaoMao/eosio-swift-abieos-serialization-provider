@@ -1,5 +1,7 @@
 using_local_pods = ENV['USE_LOCAL_PODS'] == 'true' || false
 
+source 'git@github.com:EOSLaoMao/laomao-pods.git'
+
 platform :ios, '12.0'
 
 if using_local_pods

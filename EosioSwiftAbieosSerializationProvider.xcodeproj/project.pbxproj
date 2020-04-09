@@ -456,6 +456,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6BE39DA720C5CCBB00EBBCA3;
 			productRefGroup = 6BE39DB220C5CCBB00EBBCA3 /* Products */;
@@ -635,7 +636,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -702,7 +702,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -769,7 +768,7 @@
 				);
 				MARKETING_VERSION = 0.2.1;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "one.block.eosio-swift-abieos";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.laomao.abi.eos.serialization.provider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -821,7 +820,7 @@
 				);
 				MARKETING_VERSION = 0.2.1;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "one.block.eosio-swift-abieos";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.laomao.abi.eos.serialization.provider;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -838,8 +837,6 @@
 			baseConfigurationReference = 6636D82657488DAA16C28F02 /* Pods-EosioSwiftAbieosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = EosioSwiftAbieosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
@@ -862,8 +859,6 @@
 			baseConfigurationReference = D40A3122673C801AA95B697B /* Pods-EosioSwiftAbieosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9574LUMBYJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = EosioSwiftAbieosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;

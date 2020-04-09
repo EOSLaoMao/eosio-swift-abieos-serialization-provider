@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'EosioSwiftAbieosSerializationProvider'
   s.version          = '0.2.1'
   s.summary          = 'Binary <> JSON conversion using ABIs. Compatible with languages which can interface to C.'
-  s.homepage         = 'https://github.com/EOSIO/eosio-swift-abieos-serialization-provider'
+  s.homepage         = 'https://github.com/EOSLaoMao/eosio-swift-abieos-serialization-provider'
   s.license          = { :type => 'MIT', :text => <<-LICENSE
                            Copyright (c) 2017-2019 block.one and its contributors.  All rights reserved.
                          LICENSE
@@ -23,9 +23,9 @@ Pod::Spec.new do |s|
                          'Paul Kim' => 'paul.kim@block.one',
                          'Steve McCoole' => 'steve.mccoole@objectpartners.com',
                          'Ben Martell' => 'ben.martell@objectpartners.com' }
-  s.source           = { :git => 'https://github.com/EOSIO/eosio-swift-abieos-serialization-provider.git', :tag => "v" + s.version.to_s }
+  s.source           = { :git => 'https://github.com/EOSLaoMao/eosio-swift-abieos-serialization-provider.git', :tag => "v" + s.version.to_s }
 
-  s.swift_version         = '5.0'
+  s.swift_version         = '5.2'
   s.ios.deployment_target = '12.0'
 
   s.public_header_files = 'EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.h',
